@@ -8,12 +8,14 @@ const Application = React.createClass({
   propTypes: {
     // MapedActionsToProps
     initialize: React.PropTypes.func.isRequired,
+    fetchPageContent:React.PropTypes.func.isRequired,
     // MapedStatesToProps
     app: React.PropTypes.object.isRequired,
   },
   componentDidMount() {
-    const { initialize } = this.props;
+    const { initialize, fetchPageContent } = this.props;
     initialize();
+    fetchPageContent();
   },
   render() {
     const { app } = this.props;

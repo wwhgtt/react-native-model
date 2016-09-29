@@ -21,6 +21,6 @@ switch (process.env.NODE_ENV) {
 
 module.exports = {
   // API
-  testAPI:`${apiBase}/test`,
+  pageContentAPI:`${apiBase}/pageContent.json`,
   requestOptions,
 };
