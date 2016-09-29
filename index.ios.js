@@ -10,8 +10,8 @@
  const compose = require('redux').compose;
  const Provider = require('react-redux').Provider;
  const thunkMiddleware = require('redux-thunk').default;
- const Application = require('./container/initialize/initialize');
- const reducer = require('./reducer/initialize/index.js');
+ const Application = require('./ios/src/container/initialize/initialize');
+ const reducer = require('./ios/src/reducer/initialize/index.js');
  let storeCreator = compose(applyMiddleware(thunkMiddleware))(createStore);
  const store = storeCreator(reducer);
 
