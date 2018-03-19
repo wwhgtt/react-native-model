@@ -1,0 +1,98 @@
+Arguments: 
+  D:\Program Files\nodejs\node.exe C:\Users\tubag\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Users\tubag\bin;D:\Program Files\Git\mingw64\bin;D:\Program Files\Git\usr\local\bin;D:\Program Files\Git\usr\bin;D:\Program Files\Git\usr\bin;D:\Program Files\Git\mingw64\bin;D:\Program Files\Git\usr\bin;C:\Users\tubag\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;D:\Program Files\nodejs;D:\Program Files\Git\cmd;C:\Users\tubag\AppData\Local\Microsoft\WindowsApps;C:\Users\tubag\AppData\Local\atom\bin;C:\Users\tubag\AppData\Roaming\npm;D:\Program Files\Git\usr\bin\vendor_perl;D:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.9.3
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "AwesomeProject",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+      "bundle": "rnws bundle",
+      "start": "rnws start"
+    },
+    "repository": {
+      "type": "git",
+      "url": ""
+    },
+    "author": "turing wu",
+    "license": "ISC",
+    "dependencies": {
+      "autoprefixer": "^6.3.7",
+      "babel-core": "^6.3.26",
+      "babel-eslint": "^6.0.4",
+      "babel-loader": "^6.2.0",
+      "babel-plugin-transform-object-rest-spread": "^6.3.13",
+      "babel-polyfill": "^6.9.0",
+      "babel-preset-es2015": "^6.3.13",
+      "babel-preset-react": "^6.3.13",
+      "babel-preset-stage-0": "^6.3.13",
+      "es6-promise": "^3.0.2",
+      "fetch": "^1.0.0",
+      "isomorphic-fetch": "^2.2.1",
+      "lodash._pickbycallback": "^3.0.0",
+      "lodash.assign": "^4.0.9",
+      "lodash.clonedeep": "^4.3.2",
+      "lodash.find": "^4.4.0",
+      "lodash.findindex": "^4.4.0",
+      "lodash.has": "^4.4.0",
+      "lodash.mapkeys": "^4.4.0",
+      "lodash.padstart": "^4.6.1",
+      "react": "15.3.2",
+      "react-addons-create-fragment": "^15.0.2",
+      "react-addons-perf": "^15.0.2",
+      "react-addons-shallow-compare": "^15.0.2",
+      "react-addons-test-utils": "^15.0.2",
+      "react-dom": "^15.0.2",
+      "react-native": "0.34.0",
+      "react-redux": "^4.4.5",
+      "redux": "^3.0.5",
+      "redux-actions": "^0.9.0",
+      "redux-promise": "^0.5.0",
+      "redux-thunk": "^2.0.1",
+      "rnpm": "^1.9.0",
+      "seamless-immutable": "^6.1.0"
+    },
+    "devDependencies": {
+      "babel-eslint": "^6.0.4",
+      "eslint": "^2.9.0",
+      "eslint-config-airbnb": "^9.0.1",
+      "eslint-plugin-import": "^1.7.0",
+      "eslint-plugin-jsx-a11y": "^1.2.0",
+      "eslint-plugin-react": "^5.0.1",
+      "dyson": "^0.10.0",
+      "dyson-generators": "^0.1.1",
+      "dyson-image": "^0.1.3",
+      "webpack": "*",
+      "webpack-dev-server": "*",
+      "react-native-webpack-server": "*"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Found incompatible module
+      at new MessageError (C:\Users\tubag\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:186:110)
+      at checkOne (C:\Users\tubag\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:62444:11)
+      at Object.check (C:\Users\tubag\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:62463:5)
+      at C:\Users\tubag\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:22803:73
+      at Generator.next (<anonymous>)
+      at step (C:\Users\tubag\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:98:30)
+      at C:\Users\tubag\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:109:13
+      at <anonymous>
